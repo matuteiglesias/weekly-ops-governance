@@ -1,0 +1,317 @@
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #e8e8e8;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sheet {
+  width: 297mm;
+  height: 210mm;
+  margin: 0 auto;
+  padding: 8mm;
+  background: #fff;
+  overflow: hidden;
+  page-break-after: always;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.sheet.portrait {
+  width: 210mm;
+  height: 297mm;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.small {
+  font-size: 8px;
+  color: #333;
+}
+
+.muted {
+  color: #555;
+}
+
+.line {
+  border-bottom: 1px solid #111;
+  min-height: 13px;
+}
+
+.thin-line {
+  border-bottom: 0.7px solid #444;
+  min-height: 11px;
+}
+
+.box {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 1.2px solid #111;
+  vertical-align: -1px;
+  margin-right: 3px;
+}
+
+.panel {
+  border: 1.2px solid #111;
+  padding: 5px;
+  min-height: 0;
+}
+
+.panel.light {
+  border-color: #333;
+}
+
+.chip {
+  display: inline-block;
+  border: 1px solid #111;
+  border-radius: 999px;
+  padding: 2px 6px;
+  margin: 0 3px 4px 0;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.weekly-board {
+  display: grid;
+  grid-template-rows: 21mm 105mm 56mm 12mm;
+  gap: 4mm;
+}
+
+.week-header {
+  display: grid;
+  grid-template-columns: 37mm 1fr 1fr 1fr;
+  column-gap: 5mm;
+  align-items: end;
+  border-bottom: 2px solid #111;
+  padding-bottom: 3mm;
+}
+
+.week-title {
+  align-self: start;
+}
+
+.meta {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2px;
+}
+
+.meta label {
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #333;
+}
+
+.board-grid {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 8px;
+}
+
+.board-grid th {
+  border: 1px solid #111;
+  background: #f1f1f1;
+  padding: 3px;
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.board-grid td {
+  border: 1px solid #111;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.board-grid .day {
+  width: 18mm;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 7.5px;
+}
+
+.board-grid .homeo {
+  width: 25mm;
+}
+
+.board-grid .maint {
+  width: 18mm;
+}
+
+.board-grid .close {
+  width: 21mm;
+}
+
+.cell-tag {
+  display: block;
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  color: #222;
+}
+
+.cell-writing {
+  display: block;
+  border-bottom: 0.5px solid #bbb;
+  height: 11px;
+  margin-top: 3px;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 59mm 73mm 1fr 1fr;
+  gap: 4mm;
+  min-height: 0;
+}
+
+.route-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3px;
+  font-size: 8.5px;
+}
+
+.route-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.route-left {
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.route-right {
+  white-space: nowrap;
+  font-size: 8px;
+}
+
+.outputs ol {
+  margin: 0;
+  padding-left: 14px;
+}
+
+.outputs li {
+  margin-bottom: 7px;
+  padding-bottom: 4px;
+  border-bottom: 0.8px solid #111;
+  min-height: 13px;
+}
+
+.block-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 4mm;
+}
+
+.write-lines {
+  display: grid;
+  gap: 5px;
+  margin-top: 3px;
+}
+
+.footer-strip {
+  display: grid;
+  grid-template-columns: 1fr 55mm;
+  gap: 4mm;
+  align-items: center;
+  font-size: 8px;
+  border-top: 1.5px solid #111;
+  padding-top: 2mm;
+}
+
+.route-note {
+  font-size: 8px;
+  line-height: 1.2;
+}
+
+@page portrait {
+  size: A4 portrait;
+  margin: 0;
+}
+
+.bridge-sheet {
+  page: portrait;
+  display: grid;
+  grid-template-rows: 20mm 38mm 45mm 38mm 38mm 42mm 20mm;
+  gap: 4mm;
+}
+
+.bridge-header {
+  display: grid;
+  grid-template-columns: 48mm 1fr 1fr;
+  gap: 5mm;
+  align-items: end;
+  border-bottom: 2px solid #111;
+  padding-bottom: 3mm;
+}
+
+.bridge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+}
+
+.bridge-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 8px;
+}
+
+.bridge-table th,
+.bridge-table td {
+  border: 1px solid #111;
+  padding: 5px;
+  height: 14mm;
+  vertical-align: top;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff;
+  }
+
+  .sheet {
+    margin: 0;
+    box-shadow: none;
+  }
+}
