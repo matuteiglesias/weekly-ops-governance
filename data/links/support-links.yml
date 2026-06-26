@@ -1,0 +1,21 @@
+support_links:
+  FIN-W:
+    route_card: docs/03_route_cards/situational/fin-w.md
+    contract: docs/02_governance_map/domain-contracts/fin-gov.md
+    finance_calendar: docs/04_digital_support_index/state-sources/finance-calendar.md
+    ledger: docs/04_digital_support_index/state-sources/ledger.md
+    status: placeholder_real_links_needed
+
+  CARRY-W:
+    route_card: docs/03_route_cards/project-work/carry-w.md
+    contract: docs/02_governance_map/domain-contracts/carry-gov.md
+    carry_state: docs/04_digital_support_index/state-sources/carry-state.md
+    project_frontier: docs/04_digital_support_index/state-sources/project-frontier.md
+    status: placeholder_real_links_needed
+
+  GYM-GOV:
+    route_card: docs/03_route_cards/homeostasis/gym-gov.md
+    contract: docs/02_governance_map/domain-contracts/gym-gov.md
+    gym_log: docs/04_digital_support_index/state-sources/gym-log.md
+    body_log: docs/04_digital_support_index/state-sources/body-log.md
+    status: placeholder_real_links_needed

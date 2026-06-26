@@ -1,0 +1,11 @@
+id,need,path,status
+FIN-W,route_card,docs/03_route_cards/situational/fin-w.md,local
+FIN-W,contract,docs/02_governance_map/domain-contracts/fin-gov.md,local
+FIN-W,finance_calendar,docs/04_digital_support_index/state-sources/finance-calendar.md,placeholder
+FIN-W,ledger,docs/04_digital_support_index/state-sources/ledger.md,placeholder
+CARRY-W,route_card,docs/03_route_cards/project-work/carry-w.md,local
+CARRY-W,contract,docs/02_governance_map/domain-contracts/carry-gov.md,local
+CARRY-W,carry_state,docs/04_digital_support_index/state-sources/carry-state.md,placeholder
+GYM-GOV,route_card,docs/03_route_cards/homeostasis/gym-gov.md,local
+GYM-GOV,contract,docs/02_governance_map/domain-contracts/gym-gov.md,local
+GYM-GOV,gym_log,docs/04_digital_support_index/state-sources/gym-log.md,placeholder

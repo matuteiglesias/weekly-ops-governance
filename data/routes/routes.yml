@@ -1,0 +1,32 @@
+routes:
+  - id: WEEK-GOV
+    domain: weekly_governance
+    route_type: governance
+    cadence: sunday_monday
+    board_presence: weekly_anchor
+    route_card: docs/03_route_cards/core/week-gov.md
+    contract: docs/02_governance_map/domain-contracts/week-gov.md
+    state_source: docs/04_digital_support_index/state-sources/weekly-packet.md
+    evidence_target: docs/04_digital_support_index/evidence-sources/output-log.md
+
+  - id: FIN-W
+    domain: finance
+    route_type: weekly_routine
+    cadence: friday_sunday_monday
+    board_presence: weekly_checkbox
+    route_card: docs/03_route_cards/situational/fin-w.md
+    contract: docs/02_governance_map/domain-contracts/fin-gov.md
+    state_source:
+      - docs/04_digital_support_index/state-sources/finance-calendar.md
+      - docs/04_digital_support_index/state-sources/ledger.md
+    evidence_target: docs/04_digital_support_index/evidence-sources/output-log.md
+
+  - id: CARRY-W
+    domain: project_state
+    route_type: state_update
+    cadence: friday_sunday
+    board_presence: weekly_checkbox
+    route_card: docs/03_route_cards/project-work/carry-w.md
+    contract: docs/02_governance_map/domain-contracts/carry-gov.md
+    state_source: docs/04_digital_support_index/state-sources/carry-state.md
+    evidence_target: docs/04_digital_support_index/evidence-sources/output-log.md
