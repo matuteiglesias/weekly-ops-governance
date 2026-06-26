@@ -1,0 +1,118 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1f4f46;
+  --ifm-color-primary-dark: #1a433c;
+  --ifm-color-primary-darker: #163a34;
+  --ifm-color-primary-darkest: #102c27;
+  --ifm-color-primary-light: #2a665b;
+  --ifm-font-family-base: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-heading-font-weight: 750;
+}
+
+.markdown table {
+  font-size: 0.9rem;
+}
+
+.markdown td,
+.markdown th {
+  vertical-align: top;
+}
+
+.home-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.hero-panel {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 22px;
+  padding: 3rem;
+  background: linear-gradient(135deg, #f7f7f2, #eef5f2);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.hero-panel h1 {
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  line-height: 0.95;
+  margin: 0.4rem 0 1rem;
+}
+
+.hero-panel p {
+  max-width: 760px;
+  font-size: 1.08rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.home-card {
+  display: block;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 18px;
+  padding: 1.4rem;
+  text-decoration: none;
+  color: inherit;
+  background: var(--ifm-background-surface-color);
+}
+
+.home-card:hover {
+  text-decoration: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.home-card h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.home-card p {
+  margin-bottom: 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+@media (max-width: 760px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-panel {
+    padding: 2rem;
+  }
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
