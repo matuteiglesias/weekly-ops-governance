@@ -8,12 +8,13 @@ Weekly finance review. Friday and Sunday/Monday are the preferred anchors.
 
 | Type | Link |
 |---|---|
-| Route card | `../../03_route_cards/situational/fin-w.md` |
-| Urgent finance card | `../../03_route_cards/situational/finance-urgent.md` |
-| Governance contract | `../../02_governance_map/domain-contracts/fin-gov.md` |
-| Finance calendar | `../state-sources/finance-calendar.md` |
-| Ledger | `../state-sources/ledger.md` |
-| Finance links | `../link-maps/finance-links.md` |
+| Route card | [FIN-W route card](../../03_route_cards/situational/fin-w.md) |
+| Urgent finance card | [Finance urgent route card](../../03_route_cards/situational/finance-urgent.md) |
+| Governance contract | [FIN-GOV contract](../../02_governance_map/domain-contracts/fin-gov.md) |
+| Finance calendar | [Finance Calendar](../state-sources/finance-calendar.md) |
+| Ledger | [Ledger](../state-sources/ledger.md) |
+| Finance links | [Finance links](../link-maps/finance-links.md) |
+| Evidence source | [Output Log](../evidence-sources/output-log.md) |
 
 ## State touched
 

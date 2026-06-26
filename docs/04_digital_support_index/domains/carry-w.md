@@ -8,13 +8,14 @@ Weekly project state reconciliation. Usually Friday or Sunday.
 
 | Type | Link |
 |---|---|
-| Route card | `../../03_route_cards/project-work/carry-w.md` |
-| Micro card | `../../03_route_cards/project-work/carry-micro.md` |
-| Project triage | `../../03_route_cards/project-work/project-triage.md` |
-| Governance contract | `../../02_governance_map/domain-contracts/carry-gov.md` |
-| Carry State | `../state-sources/carry-state.md` |
-| Project frontier | `../state-sources/project-frontier.md` |
-| Carry links | `../link-maps/carry-links.md` |
+| Route card | [CARRY-W route card](../../03_route_cards/project-work/carry-w.md) |
+| Micro card | [Carry micro route card](../../03_route_cards/project-work/carry-micro.md) |
+| Project triage | [Project triage route card](../../03_route_cards/project-work/project-triage.md) |
+| Governance contract | [CARRY-GOV contract](../../02_governance_map/domain-contracts/carry-gov.md) |
+| Carry State | [Carry State](../state-sources/carry-state.md) |
+| Project frontier | [Project Frontier](../state-sources/project-frontier.md) |
+| Carry links | [Carry links](../link-maps/carry-links.md) |
+| Evidence source | [Output Log](../evidence-sources/output-log.md) |
 
 ## State touched
 

@@ -1,0 +1,32 @@
+flowchart TB
+  subgraph HumanUses[Human uses]
+    Board[Weekly Board]
+    Bridge[Monday Bridge]
+    Printables[Printables]
+  end
+
+  subgraph AgentEdits[Agent edits]
+    Docs[Docs]
+    RouteMaps[Route maps]
+    LinkIndexes[Link indexes]
+    DocusaurusNav[Docusaurus nav]
+    Scripts[Scripts]
+  end
+
+  subgraph Shared[Shared conventions]
+    RouteIDs[Route IDs]
+    StateDefs[State source definitions]
+    EvidenceConventions[Evidence conventions]
+  end
+
+  subgraph ComplexityControl[Complexity control]
+    RouteCard[Move detail to Route Card]
+    SupportIndex[Move links to Support Index]
+    StateSource[Move truth to State Source]
+    FullContext[Move rationale to Full Context]
+    NotBoard[Do not put it on Weekly Board]
+  end
+
+  HumanUses --> Shared
+  AgentEdits --> Shared
+  Shared --> ComplexityControl

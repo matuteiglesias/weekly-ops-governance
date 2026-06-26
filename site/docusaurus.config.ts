@@ -45,10 +45,13 @@ const config: Config = {
     navbar: {
       title: 'Weekly Ops',
       items: [
-        {to: '/docs/weekly_board/weekly-board-layout-v0', label: 'Weekly Board', position: 'left'},
-        {to: '/docs/digital_support_index/', label: 'Support Index', position: 'left'},
-        {to: '/docs/route_cards/', label: 'Route Cards', position: 'left'},
-        {to: '/printables/weekly-board-v1.pdf', label: 'Printables', position: 'right'},
+        {to: '/docs/00_overview/operator-console', label: 'Operator Console', position: 'left'},
+        {to: '/docs/00_overview/support-flow-map', label: 'Support Flow', position: 'left'},
+        {to: '/docs/02_governance_map/route-atlas', label: 'Route Atlas', position: 'left'},
+        {to: '/docs/01_weekly_board/weekly-board-layout-v0', label: 'Weekly Board', position: 'left'},
+        {to: '/docs/04_digital_support_index/', label: 'Support Index', position: 'left'},
+        {to: '/docs/03_route_cards/', label: 'Route Cards', position: 'left'},
+        {href: '/printables/weekly-board-v1.pdf', label: 'Printables', position: 'right'},
       ],
     },
     footer: {
@@ -57,17 +60,21 @@ const config: Config = {
         {
           title: 'Operate',
           items: [
-            {label: 'Weekly Board', to: '/docs/weekly_board/weekly-board-layout-v0'},
-            {label: 'Monday Bridge PDF', to: '/printables/monday-bridge-v1.pdf'},
-            {label: 'Weekly Board PDF', to: '/printables/weekly-board-v1.pdf'},
+            {label: 'Operator Console', to: '/docs/00_overview/operator-console'},
+            {label: 'Support Flow Map', to: '/docs/00_overview/support-flow-map'},
+            {label: 'Weekly Board', to: '/docs/01_weekly_board/weekly-board-layout-v0'},
+            {label: 'Monday Bridge PDF', href: '/printables/monday-bridge-v1.pdf'},
+            {label: 'Weekly Board PDF', href: '/printables/weekly-board-v1.pdf'},
           ],
         },
         {
           title: 'Navigate',
           items: [
-            {label: 'Governance Map', to: '/docs/governance_map/'},
-            {label: 'Digital Support Index', to: '/docs/digital_support_index/'},
-            {label: 'Route Cards', to: '/docs/route_cards/'},
+            {label: 'Route Atlas', to: '/docs/02_governance_map/route-atlas'},
+            {label: 'Agent Navigation Guide', to: '/docs/00_overview/agent-navigation-guide'},
+            {label: 'Governance Map', to: '/docs/02_governance_map/'},
+            {label: 'Digital Support Index', to: '/docs/04_digital_support_index/'},
+            {label: 'Route Cards', to: '/docs/03_route_cards/'},
           ],
         },
       ],

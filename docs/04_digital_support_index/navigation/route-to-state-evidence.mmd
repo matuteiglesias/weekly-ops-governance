@@ -1,0 +1,9 @@
+flowchart LR
+  RouteID[Route ID] --> Atlas[Route Atlas]
+  Atlas --> Card[Route Card]
+  Atlas --> Contract[Governance Contract]
+  Atlas --> Support[Support Index Domain Page]
+  Support --> State[Source-of-Truth State]
+  Support --> Evidence[Evidence / Proof]
+  State --> NextPointer[Next Pointer]
+  Evidence --> Review[Review / Close]

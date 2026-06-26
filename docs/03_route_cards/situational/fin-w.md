@@ -42,3 +42,11 @@ No near-term financial obligation remains ambiguous.
 ## Stop rule
 
 Do not open deep financial analysis unless there is a concrete blocker.
+
+## Related
+
+- [FIN-GOV contract](../../02_governance_map/domain-contracts/fin-gov.md)
+- [FIN-W support index](../../04_digital_support_index/domains/fin-w.md)
+- [Finance calendar](../../04_digital_support_index/state-sources/finance-calendar.md)
+- [Ledger](../../04_digital_support_index/state-sources/ledger.md)
+- [Output Log](../../04_digital_support_index/evidence-sources/output-log.md)

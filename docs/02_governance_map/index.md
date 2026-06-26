@@ -35,3 +35,20 @@ If a route appears on the weekly board, it must have:
 - output/evidence;
 - tick criterion;
 - stop rule.
+
+## Start here
+
+- Use the [Route Atlas](route-atlas.md) when you have a route ID and need the route card, governance contract, support page, state, evidence, printable, and stop rule.
+- Start with the [Governance Map v0](governance-map-v0.md) for the active route architecture.
+- Use the [Routes Master Table](tables/routes-master-table.md) to connect route IDs to contracts, state, and evidence.
+- Use domain contracts such as [FIN-GOV](domain-contracts/fin-gov.md) and [CARRY-GOV](domain-contracts/carry-gov.md) when a route card needs its governing rule.
+
+## Related
+
+- [Weekly Board layout](../01_weekly_board/weekly-board-layout-v0.md)
+- [Route Cards](../03_route_cards/index.md)
+- [Digital Support Index](../04_digital_support_index/index.md)
+
+## Do not use this for
+
+Do not expand this section into SOPs or duplicate state. The map defines route architecture; route execution belongs in route cards, and source-of-truth links belong in the Digital Support Index.

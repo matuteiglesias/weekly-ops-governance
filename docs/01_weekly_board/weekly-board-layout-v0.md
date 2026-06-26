@@ -145,3 +145,12 @@ At the end of the week, ask:
 * Did it reduce forgotten finance/carry/house/body/gym work?
 * Did it keep Monday Bridge out of the diagram?
 * Was anything too dense?
+
+## Related
+
+- [Route Cards](../03_route_cards/index.md)
+- [Digital Support Index](../04_digital_support_index/index.md)
+- [Printables Manifest](../06_printables/printables-manifest.md)
+- [Weekly Board PDF](/printables/weekly-board-v1.pdf)
+- [Monday Bridge source](../06_printables/sources/monday-bridge-print.md)
+- [Monday Bridge PDF](/printables/monday-bridge-v1.pdf)

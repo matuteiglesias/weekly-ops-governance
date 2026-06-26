@@ -58,27 +58,45 @@ export default function Home(): JSX.Element {
             Use the digital support index for links, state, and evidence.
           </p>
           <div className="hero-actions">
-            <Link className="button button--primary" to="/docs/weekly_board/weekly-board-layout-v0">
+            <Link className="button button--primary" to="/docs/00_overview/operator-console">
+              Open Operator Console
+            </Link>
+            <Link className="button button--secondary" to="/docs/00_overview/support-flow-map">
+              View Support Flow
+            </Link>
+            <Link className="button button--secondary" to="/docs/02_governance_map/route-atlas">
+              Open Route Atlas
+            </Link>
+            <Link className="button button--primary" to="/docs/01_weekly_board/weekly-board-layout-v0">
               Start with Weekly Board
             </Link>
-            <Link className="button button--secondary" to="/printables/weekly-board-v1.pdf">
+            <Link className="button button--secondary" href="/printables/weekly-board-v1.pdf">
               Open Weekly Board PDF
             </Link>
           </div>
         </section>
 
         <section className="home-grid">
-          <Card title="Weekly Board" to="/docs/weekly_board/weekly-board-layout-v0">
-            The paper surface for week operation, checks, outputs, blockers, and contracts alive.
+          <Card title="Start the week" to="/docs/00_overview/operator-console">
+            Open the need-first console for WEEK-GOV, Weekly Board, Digital Support Index, and Weekly Packet.
           </Card>
-          <Card title="Digital Support Index" to="/docs/digital_support_index/">
-            Functional navigation from route IDs to cards, state sources, links, and evidence.
+          <Card title="Start today" to="/docs/03_route_cards/core/boot">
+            Use BOOT with the Weekly Board and NEXT pointer to choose the first concrete action.
           </Card>
-          <Card title="Route Cards" to="/docs/route_cards/">
-            Short operational contracts for BOOT, MAINT, FOCUS, FIN-W, GYM-GOV, and more.
+          <Card title="Find a route" to="/docs/04_digital_support_index/navigation/route-atlas">
+            Look up route cards, governance contracts, support pages, state, evidence, printables, and stop rules.
           </Card>
-          <Card title="Governance Map" to="/docs/governance_map/">
-            Architecture of routes, contracts, state, evidence, and paper/digital boundaries.
+          <Card title="Use printables" to="/docs/06_printables/">
+            Find the Weekly Board, Monday Bridge, printables manifest, and synced PDF/PNG assets.
+          </Card>
+          <Card title="Update state" to="/docs/04_digital_support_index/navigation/ops-navigator">
+            Jump from a route to source-of-truth state such as Carry State, Weekly Packet, Finance Calendar, or Ledger.
+          </Card>
+          <Card title="Record evidence" to="/docs/04_digital_support_index/evidence-sources/output-log">
+            Leave proof in Output Log, Messages Sent, Published Posts, Deployments, or Reports.
+          </Card>
+          <Card title="Guide for agents" to="/docs/04_digital_support_index/navigation/agent-navigation-guide">
+            Follow safe-edit rules for routes, printables, Docusaurus links, board bloat, and Monday Bridge separation.
           </Card>
         </section>
       </main>
