@@ -59,3 +59,20 @@ They answer:
 - `situational/policy-content-gov.md`
 - `situational/academic-gov.md`
 - `situational/travel-gov.md`
+
+## Start here
+
+- If the Weekly Board shows a route ID, find the matching card below.
+- For finance, start with [FIN-W](situational/fin-w.md).
+- For project continuity, start with [CARRY-W](project-work/carry-w.md) or [NEXT Pointer](core/next-pointer.md).
+
+## Related
+
+- [Route Atlas](../02_governance_map/route-atlas.md)
+- [Weekly Board layout](../01_weekly_board/weekly-board-layout-v0.md)
+- [Governance Map](../02_governance_map/index.md)
+- [Digital Support Index](../04_digital_support_index/index.md)
+
+## Do not use this for
+
+Route cards should stay short. Do not turn them into long SOPs, duplicate digital links, or replace the Digital Support Index.

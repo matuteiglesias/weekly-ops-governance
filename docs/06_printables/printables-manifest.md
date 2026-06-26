@@ -10,12 +10,12 @@ The main working printable is the Weekly Board. It must fit one page and be usab
 
 | Artifact | Source | Generated PDF | Generated PNG | Status | Purpose |
 |---|---|---|---|---|---|
-| Weekly Board v1 | `sources/weekly-board-v1.html` | `generated/weekly-board-v1.pdf` | `generated/weekly-board-v1.png` | priority | Main weekly paper surface |
-| Monday Bridge v1 | `sources/monday-bridge-v1.html` | `generated/monday-bridge-v1.pdf` | `generated/monday-bridge-v1.png` | priority | Separate restart sheet |
-| Governance Map | `sources/governance-map-print.md` | `generated/governance-map.pdf` | - | secondary | Architecture reference |
-| Support Index | `sources/support-index-print.md` | `generated/support-index.pdf` | - | secondary | Link map reference |
-| Route Cards | `sources/route-cards-print.md` | `generated/route-cards.pdf` | - | deferred | Needs card layout later |
-| User Guide | `sources/user-guide-print.md` | `generated/user-guide.pdf` | - | secondary | How to use the system |
+| Weekly Board v1 | [source](sources/weekly-board-v1.html) | [PDF](/printables/weekly-board-v1.pdf) | [PNG](/printables/weekly-board-v1.png) | priority | Main weekly paper surface |
+| Monday Bridge v1 | [source](sources/monday-bridge-v1.html) | [PDF](/printables/monday-bridge-v1.pdf) | [PNG](/printables/monday-bridge-v1.png) | priority | Separate restart sheet |
+| Governance Map | [source](sources/governance-map-print.md) | [PDF](/printables/governance-map.pdf) | - | secondary | Architecture reference |
+| Support Index | [source](sources/support-index-print.md) | [PDF](/printables/support-index.pdf) | - | secondary | Link map reference |
+| Route Cards | [source](sources/route-cards-print.md) | [PDF](/printables/route-cards.pdf) | - | deferred | Needs card layout later |
+| User Guide | [source](sources/user-guide-print.md) | [PDF](/printables/user-guide.pdf) | - | secondary | How to use the system |
 
 ## Decisions
 
@@ -24,3 +24,9 @@ The main working printable is the Weekly Board. It must fit one page and be usab
 - Checkboxes are CSS boxes, not Unicode characters.
 - Mermaid is for explanatory diagrams, not for writable forms.
 - Route Cards stay MD/web until a real card layout is designed.
+
+## Related
+
+- [Print queue](print-queue.md)
+- [Weekly Board layout](../01_weekly_board/weekly-board-layout-v0.md)
+- [Monday Bridge Markdown source](sources/monday-bridge-print.md)

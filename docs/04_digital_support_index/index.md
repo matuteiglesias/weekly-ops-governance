@@ -72,3 +72,21 @@ When the weekly board shows an ID such as `FIN-W`, `CARRY-W`, `GYM-GOV`, or `WEE
 - `evidence-sources/published-posts.md`
 - `evidence-sources/reports.md`
 - `evidence-sources/deployments.md`
+
+## Start here
+
+- Use [Digital Support Index v0](digital-support-index-v0.md) for the current route-to-link map.
+- Use domain pages when following a board route into state and evidence: [FIN-W](domains/fin-w.md), [CARRY-W](domains/carry-w.md), [WEEK-GOV](domains/week-gov.md).
+- Use [state sources](state-sources/weekly-packet.md) and [evidence sources](evidence-sources/output-log.md) only after a route card says they are needed.
+
+## Related
+
+- [Operator Console](../00_overview/operator-console.md)
+- [Route Atlas](../02_governance_map/route-atlas.md)
+- [Weekly Board layout](../01_weekly_board/weekly-board-layout-v0.md)
+- [Route Cards](../03_route_cards/index.md)
+- [Governance Map](../02_governance_map/index.md)
+
+## Do not use this for
+
+Do not duplicate full manuals or weekly-board content here. This section is a functional link index, not the paper surface and not Full Context.

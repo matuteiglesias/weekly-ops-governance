@@ -73,3 +73,11 @@ WEEK-GOV □ if week not already framed
 ## Done When
 
 Monday can start without reconstructing the previous week.
+
+## Related
+
+- [NEXT Pointer route card](../../03_route_cards/core/next-pointer.md)
+- [CARRY-W route card](../../03_route_cards/project-work/carry-w.md)
+- [Carry State](../../04_digital_support_index/state-sources/carry-state.md)
+- [Weekly Packet](../../04_digital_support_index/state-sources/weekly-packet.md)
+- [Weekly Board layout](../../01_weekly_board/weekly-board-layout-v0.md)

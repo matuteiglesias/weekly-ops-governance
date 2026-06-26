@@ -37,3 +37,11 @@ Every active front has a status and restart pointer or a deliberate parked reaso
 ## Stop rule
 
 Do not re-plan the full project universe.
+
+## Related
+
+- [CARRY-GOV contract](../../02_governance_map/domain-contracts/carry-gov.md)
+- [CARRY-W support index](../../04_digital_support_index/domains/carry-w.md)
+- [Carry State](../../04_digital_support_index/state-sources/carry-state.md)
+- [Project Frontier](../../04_digital_support_index/state-sources/project-frontier.md)
+- [Monday Bridge source](../../06_printables/sources/monday-bridge-print.md)
