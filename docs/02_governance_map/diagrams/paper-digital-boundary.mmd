@@ -1,0 +1,20 @@
+flowchart LR
+  subgraph Paper
+    WB[Weekly Board]
+    MB[Monday Bridge]
+  end
+
+  subgraph Digital
+    SI[Digital Support Index]
+    RC[Route Cards]
+    SS[State Sources]
+    EV[Evidence Sources]
+    FC[Full Context]
+  end
+
+  WB --> SI
+  WB --> MB
+  SI --> RC
+  SI --> SS
+  SI --> EV
+  RC --> FC

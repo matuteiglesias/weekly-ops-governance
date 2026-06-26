@@ -1,0 +1,13 @@
+flowchart LR
+  WB[Weekly Board] --> ID[Route ID or tick]
+  ID --> CARD[Route Card]
+  ID --> GOV[Governance Contract]
+  CARD --> ACTION[Bounded Action]
+  GOV --> QUALITY[Quality Criteria]
+  ACTION --> STATE[State Source]
+  ACTION --> EVIDENCE[Evidence Source]
+  STATE --> NEXT[Next Pointer]
+  EVIDENCE --> REVIEW[Weekly Review]
+
+  WB -. Monday Bridge marker .-> BRIDGE[Separate Monday Bridge Sheet]
+  BRIDGE --> NEXT
