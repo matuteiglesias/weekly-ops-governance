@@ -1,27 +1,20 @@
 # Backlog
 
-The backlog records known gaps, deferred work, risks, and audit tasks.
+This section tracks future system work that should not interrupt operation.
 
-## Start here
+## Active files
 
-- Use [Backlog](backlog.md) for the active list.
-- Use [Known gaps](known-gaps.md) for documented incompleteness.
-- Use [Internal Link Audit Report](tasks/internal-link-audit-report.md) for navigation findings from the link audit.
-
-## Key files
-
+- [Backlog](backlog.md)
+- [Known Gaps](known-gaps.md)
+- [Not Now](not-now.md)
 - [Risks](risks.md)
-- [Not now](not-now.md)
-- [Wave 07 integration review](waves/wave-07-integration-review.md)
-- [Support index open questions](questions/support-index-open-questions.md)
 
-## Do not use this for
+## Archived scaffold
 
-- Operating the current week; start from the [Weekly Board](../01_weekly_board/weekly-board-layout-v0.md).
-- Route execution; use [Route Cards](../03_route_cards/index.md).
-- Source-of-truth state; use the [Digital Support Index](../04_digital_support_index/index.md).
+Weak or speculative scaffold was moved to:
 
-## Related
+- `docs/10_archive/prune-2026-06-27/removed-scaffold/`
 
-- [Governance Map](../02_governance_map/index.md)
-- [Printables](../06_printables/index.md)
+## Rule
+
+The backlog is not the weekly board. It is a holding area for future improvements.
