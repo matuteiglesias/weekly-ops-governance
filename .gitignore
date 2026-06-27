@@ -1,0 +1,25 @@
+
+# Dependencies
+node_modules/
+
+# Docusaurus / web builds
+site/build/
+site/.docusaurus/
+.docusaurus/
+build/
+
+# Caches
+.cache/
+__pycache__/
+.pytest_cache/
+
+# Local env / secrets
+.env
+.env.*
+*.secret
+*service-account*.json
+newgsheets-*.json
+
+# OS/editor
+.DS_Store
+*.swp

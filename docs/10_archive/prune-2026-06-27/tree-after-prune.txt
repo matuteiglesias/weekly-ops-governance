@@ -1,0 +1,232 @@
+.
+├── data
+│   ├── links
+│   │   ├── support-links.csv
+│   │   └── support-links.yml
+│   └── routes
+│       ├── routes.csv
+│       └── routes.yml
+├── docs
+│   ├── 00_overview
+│   │   ├── agent-navigation-guide.md
+│   │   ├── index.md
+│   │   ├── operator-console.md
+│   │   └── support-flow-map.md
+│   ├── 01_weekly_board
+│   │   └── weekly-board-layout-v0.md
+│   ├── 02_governance_map
+│   │   ├── diagrams
+│   │   │   ├── paper-digital-boundary.mmd
+│   │   │   ├── state-and-evidence-flow.mmd
+│   │   │   ├── system-levels.mmd
+│   │   │   └── weekly-board-routing.mmd
+│   │   ├── domain-contracts
+│   │   │   ├── body-gov.md
+│   │   │   ├── capture-gov.md
+│   │   │   ├── carry-gov.md
+│   │   │   ├── external-gov.md
+│   │   │   ├── fin-gov.md
+│   │   │   ├── focus-gov.md
+│   │   │   ├── gym-gov.md
+│   │   │   ├── house-gov.md
+│   │   │   ├── maint-gov.md
+│   │   │   ├── next-gov.md
+│   │   │   └── week-gov.md
+│   │   ├── governance-map-column-definitions.md
+│   │   ├── governance-map-v0.md
+│   │   ├── index.md
+│   │   ├── route-atlas.md
+│   │   └── tables
+│   │       └── routes-master-table.md
+│   ├── 03_route_cards
+│   │   ├── core
+│   │   │   ├── boot.md
+│   │   │   ├── close.md
+│   │   │   ├── focus.md
+│   │   │   ├── maint.md
+│   │   │   ├── next-pointer.md
+│   │   │   └── week-gov.md
+│   │   ├── external
+│   │   │   ├── client-followup.md
+│   │   │   ├── external-gov.md
+│   │   │   ├── feedback-request.md
+│   │   │   ├── media-outreach.md
+│   │   │   ├── recruiter-response.md
+│   │   │   └── send-publish-contact.md
+│   │   ├── homeostasis
+│   │   │   ├── body-gov.md
+│   │   │   ├── cln-30.md
+│   │   │   ├── food-and-alcohol-log.md
+│   │   │   ├── gym-gov.md
+│   │   │   ├── house-gov.md
+│   │   │   └── sleep-log.md
+│   │   ├── index.md
+│   │   ├── project-work
+│   │   │   ├── active-fronts-review.md
+│   │   │   ├── breakthrough-14d.md
+│   │   │   ├── carry-micro.md
+│   │   │   ├── carry-w.md
+│   │   │   ├── project-triage.md
+│   │   │   └── quarterly-reframe.md
+│   │   └── situational
+│   │       ├── academic-gov.md
+│   │       ├── capture-gov.md
+│   │       ├── capture-router.md
+│   │       ├── client-sites-gov.md
+│   │       ├── finance-urgent.md
+│   │       ├── fin-w.md
+│   │       ├── job-gov.md
+│   │       ├── policy-content-gov.md
+│   │       └── travel-gov.md
+│   ├── 04_digital_support_index
+│   │   ├── digital-support-index-spec.md
+│   │   ├── digital-support-index-v0.md
+│   │   ├── domains
+│   │   │   ├── academic-gov.md
+│   │   │   ├── body-gov.md
+│   │   │   ├── capture-gov.md
+│   │   │   ├── carry-w.md
+│   │   │   ├── client-sites-gov.md
+│   │   │   ├── external-gov.md
+│   │   │   ├── fin-w.md
+│   │   │   ├── gym-gov.md
+│   │   │   ├── house-gov.md
+│   │   │   ├── job-gov.md
+│   │   │   ├── policy-content-gov.md
+│   │   │   └── week-gov.md
+│   │   ├── evidence-sources
+│   │   │   ├── commits.md
+│   │   │   ├── deployments.md
+│   │   │   ├── messages-sent.md
+│   │   │   ├── output-log.md
+│   │   │   ├── published-posts.md
+│   │   │   └── reports.md
+│   │   ├── index.md
+│   │   ├── link-health-check.md
+│   │   ├── linking-rules.md
+│   │   ├── link-maps
+│   │   │   ├── body-links.md
+│   │   │   ├── capture-links.md
+│   │   │   ├── carry-links.md
+│   │   │   ├── external-links.md
+│   │   │   ├── finance-links.md
+│   │   │   ├── gym-links.md
+│   │   │   ├── house-links.md
+│   │   │   └── week-review-links.md
+│   │   ├── navigation
+│   │   │   ├── agent-navigation-guide.md
+│   │   │   ├── external-nav.md
+│   │   │   ├── homeostasis-nav.md
+│   │   │   ├── human-agent-boundary.mmd
+│   │   │   ├── main-nav.md
+│   │   │   ├── ops-navigator.md
+│   │   │   ├── ops-support-flow.mmd
+│   │   │   ├── project-nav.md
+│   │   │   ├── route-atlas.md
+│   │   │   ├── route-to-state-evidence.mmd
+│   │   │   ├── support-flow-map.md
+│   │   │   └── weekly-nav.md
+│   │   └── state-sources
+│   │       ├── body-log.md
+│   │       ├── capture-inbox.md
+│   │       ├── carry-state.md
+│   │       ├── finance-calendar.md
+│   │       ├── gym-log.md
+│   │       ├── ledger.md
+│   │       ├── project-frontier.md
+│   │       └── weekly-packet.md
+│   ├── 05_full_context
+│   │   ├── index.md
+│   │   └── sops
+│   │       └── user-week-rollaround-guide.md
+│   ├── 06_printables
+│   │   ├── generated
+│   │   │   ├── governance-map.pdf
+│   │   │   ├── monday-bridge-v1.pdf
+│   │   │   ├── monday-bridge-v1.png
+│   │   │   ├── route-cards.pdf
+│   │   │   ├── support-index.pdf
+│   │   │   ├── user-guide.pdf
+│   │   │   ├── weekly-board-v1.pdf
+│   │   │   └── weekly-board-v1.png
+│   │   ├── index.md
+│   │   ├── printables-manifest.md
+│   │   ├── print-queue.md
+│   │   ├── print-style-guide.md
+│   │   └── sources
+│   │       ├── governance-map-print.md
+│   │       ├── monday-bridge-print.md
+│   │       ├── monday-bridge-v1.html
+│   │       ├── printable-v1.css
+│   │       ├── route-cards-print.md
+│   │       ├── support-index-print.md
+│   │       ├── user-guide-print.md
+│   │       ├── weekly-board-print.md
+│   │       └── weekly-board-v1.html
+│   ├── 09_backlog
+│   │   ├── backlog.md
+│   │   ├── index.md
+│   │   ├── known-gaps.md
+│   │   ├── not-now.md
+│   │   ├── risks.md
+│   │   └── tasks
+│   │       └── internal-link-audit-report.md
+│   └── 10_archive
+│       └── prune-2026-06-27
+│           ├── empty-files-before-prune.txt
+│           ├── removed-scaffold
+│           ├── tree-after-prune.txt
+│           └── tree-before-prune.txt
+├── .gitignore
+├── README.md
+├── scripts
+│   ├── print
+│   │   ├── render-all.sh
+│   │   ├── render-governance-map.sh
+│   │   ├── render-html-printable.sh
+│   │   ├── render-monday-bridge.sh
+│   │   ├── render-one.sh
+│   │   ├── render-route-cards.sh
+│   │   ├── render-support-index.sh
+│   │   ├── render-user-guide.sh
+│   │   └── render-weekly-board.sh
+│   └── site
+│       └── sync-printables.sh
+└── site
+    ├── docusaurus.config.ts
+    ├── .gitignore
+    ├── package.json
+    ├── package-lock.json
+    ├── README.md
+    ├── sidebars.ts
+    ├── src
+    │   ├── components
+    │   │   └── HomepageFeatures
+    │   ├── css
+    │   │   └── custom.css
+    │   └── pages
+    │       ├── index.module.css
+    │       ├── index.tsx
+    │       └── markdown-page.mdx
+    ├── static
+    │   ├── img
+    │   │   ├── docusaurus.png
+    │   │   ├── docusaurus-social-card.jpg
+    │   │   ├── favicon.ico
+    │   │   ├── logo.svg
+    │   │   ├── undraw_docusaurus_mountain.svg
+    │   │   ├── undraw_docusaurus_react.svg
+    │   │   └── undraw_docusaurus_tree.svg
+    │   ├── .nojekyll
+    │   └── printables
+    │       ├── governance-map.pdf
+    │       ├── monday-bridge-v1.pdf
+    │       ├── monday-bridge-v1.png
+    │       ├── route-cards.pdf
+    │       ├── support-index.pdf
+    │       ├── user-guide.pdf
+    │       ├── weekly-board-v1.pdf
+    │       └── weekly-board-v1.png
+    └── tsconfig.json
+
+44 directories, 185 files
