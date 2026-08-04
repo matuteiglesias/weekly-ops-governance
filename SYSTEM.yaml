@@ -1,0 +1,39 @@
+# This file declares the repository boundary and its place in the GitHub estate.
+schema_version: 1
+id: ops.governance.weekly
+repository:
+  id: repo.weekly-ops-governance
+  github: matuteiglesias/weekly-ops-governance
+domain: operations
+system: ops.governance
+role: weekly-governance-surface
+lifecycle: active
+authority:
+  status: proposed
+  owns:
+  - weekly operating priorities, decisions, and closeout state
+  - human-readable governance surface
+  does_not_own:
+  - office automation execution
+  - repository runtime state
+  - personal journal publication
+interfaces:
+  consumes: []
+  produces:
+  - artifact:ops.weekly-plan@1
+  - artifact:ops.weekly-close@1
+upstream: []
+downstream:
+- repo.office-auto-lab
+canonical_commands: []
+generated_paths:
+- dist/
+verification:
+  status: metadata-only
+  last_verified: '2026-08-04'
+  command: null
+  unknowns:
+  - canonical build and publication commands require local confirmation
+maintenance:
+  cadence: quarterly
+  next_review: '2026-11-01'
