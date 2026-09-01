@@ -6,34 +6,36 @@ repository:
   github: matuteiglesias/weekly-ops-governance
 domain: operations
 system: ops.governance
-role: weekly-governance-surface
+role: weekly-governance-docs
 lifecycle: active
 authority:
-  status: proposed
+  status: declared
   owns:
-  - weekly operating priorities, decisions, and closeout state
-  - human-readable governance surface
+  - weekly governance documentation and route vocabulary
+  - human-facing weekly board, route cards, support indexes, and printable interaction surfaces
+  - documentation for week review, rollover, and restart procedures
   does_not_own:
-  - office automation execution
-  - repository runtime state
+  - canonical operational front registry or carry state
+  - canonical weekly priorities, decisions, or closeout state
+  - office automation execution or Office compile semantics
+  - repository runtime state or GitHub estate authority
+  - Ops execution state, evidence, or closure records
   - personal journal publication
 interfaces:
   consumes: []
-  produces:
-  - artifact:ops.weekly-plan@1
-  - artifact:ops.weekly-close@1
+  produces: []
 upstream: []
-downstream:
-- repo.office-auto-lab
+downstream: []
 canonical_commands: []
 generated_paths:
 - dist/
 verification:
   status: metadata-only
-  last_verified: '2026-08-04'
+  last_verified: '2026-09-01'
   command: null
   unknowns:
   - canonical build and publication commands require local confirmation
+  - several support-index pages still contain placeholder links to external canonical state sources
 maintenance:
   cadence: quarterly
   next_review: '2026-11-01'
