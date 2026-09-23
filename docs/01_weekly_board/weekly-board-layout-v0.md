@@ -4,52 +4,40 @@
 
 The Weekly Board is the human-facing surface for operating the week.
 
-It is designed for paper, handwriting, checkboxes, and quick visual orientation.
+It is deliberately low-density: paper/handwriting or a similarly simple UI.
 
-It does not contain full checklists, full context, or Monday Bridge content. It routes into them.
+It does not own canonical state.
 
 ## Page concept
 
-A single weekly page should show:
+A single weekly page may show:
 
 1. week identity;
 2. seasonal / 14-day frame;
-3. day/hour board;
-4. route checkboxes;
-5. governance contracts alive this week;
-6. visible outputs;
-7. blockers / not-now;
-8. a pointer to the separate Monday Bridge file.
+3. broad daypart/block geometry;
+4. a small route vocabulary;
+5. visible outputs;
+6. blockers / not-now;
+7. a restart/Monday bridge pointer;
+8. optional surfaced views such as relationships/opportunities/events.
 
-## Monday Bridge rule
-
-The weekly board may include a checkbox or route marker for `NEXT / Monday Bridge`.
-
-The actual Monday Bridge content lives in:
-
-- `docs/06_printables/sources/monday-bridge-print.md`
-- `docs/03_route_cards/core/next-pointer.md`
-- optionally a weekly packet/state file later
-
-The weekly diagram should not carry the full bridge fields.
-
-## Layout sections
-
-### 1. Header
+## Header
 
 ```text
 Week: ____ / ____ / ____
 Seasonal frame: ____________________________
 14D breakthrough: __________________________
-Primary front: _____________________________
-````
+Primary front / emphasis: __________________
+```
 
-### 2. Time grid
+The 14-day field is a planning lens, not a data-model state.
 
-The grid uses days as rows and broad time blocks as columns.
+## Time grid
+
+A board may use broad blocks:
 
 ```text
-Day        Sleep/Homeo   M1/BOOT   FOCUS 1   M2   FOCUS 2   M3   FOCUS 3   Night/CLOSE
+Day        M1/BOOT   FOCUS 1   M2   FOCUS 2   M3   FOCUS 3   CLOSE
 Monday
 Tuesday
 Wednesday
@@ -59,98 +47,80 @@ Saturday
 Sunday
 ```
 
-The board does not need exact minute-level scheduling.
+or any simpler geometry that works.
 
-### 3. Daily route ticks
+Exact minute-level scheduling is not required.
 
-```text
-BOOT:   Mon □ Tue □ Wed □ Thu □ Fri □
-CLOSE:  Mon □ Tue □ Wed □ Thu □ Fri □
-```
+## Route ticks
 
-### 4. Weekly routes
+A useful default might include:
 
 ```text
-WEEK-GOV      □
-CARRY-M       Mon □ Wed □ Fri □
-CARRY-W       □
-FIN-W         Fri □ Sun/Mon □
-EXTERNAL      □
-HOUSE / CLN   □ □ □
-GYM sessions  □ □ □
-BODY signal   □
-NEXT packet   □ see Monday Bridge file
+BOOT:       Mon □ Tue □ Wed □ Thu □ Fri □
+CLOSE:      Mon □ Tue □ Wed □ Thu □ Fri □
+
+WEEK-GOV    □
+CARRY-M     Mon □ Wed □ Fri □
+CARRY-W     □
+FIN-W       □
+EXTERNAL    □
+HOUSE/CLN   □ □ □
+GYM         □ □ □
+BODY        □
+NEXT        □
 ```
 
-### 5. Contracts alive
+These are heuristics. Remove ticks that no longer earn their space.
 
-```text
-Contracts alive this week:
-WEEK · FOCUS · MAINT · CARRY · FIN · GYM · BODY · HOUSE · CAPTURE · EXTERNAL · NEXT
-```
+## Counts
 
-Circle or mark the ones that matter most this week.
+Exact daily/weekly counts are attention guards, not completeness contracts.
 
-### 6. Outputs visible
+Examples:
 
-```text
-Outputs visible this week:
-1.
-2.
-3.
-```
+- 1 primary deep stream;
+- 1 bounded maintenance move;
+- 1–3 candidate pulls;
+- a small number of externalization targets.
 
-### 7. Blockers / not-now
+Use fewer when that is enough.
 
-```text
-Blockers:
--
+## State rule
 
-Not-now:
--
-```
+The board may annotate or select items, but source facts should remain in governed sources.
+
+Examples:
+
+- carry posture → `carry_state_v2`;
+- front identity → `front_registry_v2`;
+- relationship agenda → relationship tables;
+- external attention → Event & Institutional Frontier view.
 
 ## Board inclusion rule
 
-A route appears on the board only if it:
+A route or item belongs here when visibility meaningfully reduces:
 
-* reduces forgotten routine work;
-* updates important state;
-* supports homeostasis;
-* produces external evidence;
-* lowers restart cost;
-* prevents rework.
+- forgotten recurring work;
+- restart cost;
+- rework;
+- missed external obligations;
+- excessive search.
 
 ## What does not belong here
 
-* Full finance checklist
-* Full capture manual
-* Full cleaning checklist
-* Full project universe
-* Full weekly review content
-* Full gym program
-* Full Monday Bridge content
-* Full operating manual
+- full checklists;
+- full project/front universe;
+- contact databases;
+- detailed Office artifacts;
+- full manuals;
+- every possible route;
+- every event/opportunity.
 
-Those belong in route cards, support index, state sources, and full context.
-
-## v0 use test
-
-Print one page. Use it for one week.
-
-At the end of the week, ask:
-
-* Did it help select blocks?
-* Did it make routines visible?
-* Did it reduce forgotten finance/carry/house/body/gym work?
-* Did it keep Monday Bridge out of the diagram?
-* Was anything too dense?
+Those live in their source systems or supporting views.
 
 ## Related
 
-- [Route Cards](../03_route_cards/index.md)
+- [Cadence and horizons](../02_governance_map/cadence-horizons.md)
+- [Governance Map](../02_governance_map/index.md)
 - [Digital Support Index](../04_digital_support_index/index.md)
-- [Printables Manifest](../06_printables/printables-manifest.md)
-- [Weekly Board PDF](/printables/weekly-board-v1.pdf)
-- [Monday Bridge source](../06_printables/sources/monday-bridge-print.md)
-- [Monday Bridge PDF](/printables/monday-bridge-v1.pdf)
+- [Route Cards](../03_route_cards/index.md)
