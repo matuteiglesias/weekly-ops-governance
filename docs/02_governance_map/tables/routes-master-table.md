@@ -1,6 +1,10 @@
 # Routes Master Table
 
-Canonical route table for the weekly operations governance system.
+Canonical **Weekly route registry**.
+
+This table owns the current Weekly route IDs. `Natural cadence` is a human heuristic, not a timer/state contract. Dynamic state references resolve through the Digital Support Index to current governed sources or published views.
+
+See [Cadence, horizons, and week-shaping heuristics](../cadence-horizons.md).
 
 | ID | Domain | Route type | Natural cadence | Weekly board presence | Contract | Inputs | State touched | Output / evidence | Tick valid when | Stop rule | Linked card | Support index entry |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|

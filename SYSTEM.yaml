@@ -13,17 +13,25 @@ authority:
   owns:
   - weekly governance documentation and route vocabulary
   - human-facing weekly board, route cards, support indexes, and printable interaction surfaces
+  - cadence, horizon, daypart, 14-day, seasonal, and attention-count heuristics
   - documentation for week review, rollover, and restart procedures
   does_not_own:
   - canonical operational front registry or carry state
-  - canonical weekly priorities, decisions, or closeout state
-  - office automation execution or Office compile semantics
+  - Office compile semantics or generated Office state
+  - operator runtime authorization
   - repository runtime state or GitHub estate authority
-  - Ops execution state, evidence, or closure records
-  - personal journal publication
+  - relationship/contact/event source truth
+  - Event & Institutional Frontier state
+  - Ops execution receipts merely because they are surfaced during a week
 interfaces:
-  consumes: []
-  produces: []
+  consumes:
+  - governed source references
+  - Office v2 artifacts and published views
+  - human annotations
+  produces:
+  - weekly routing/navigation
+  - board/printable surfaces
+  - cadence and horizon heuristics
 upstream: []
 downstream: []
 canonical_commands: []
@@ -31,11 +39,10 @@ generated_paths:
 - dist/
 verification:
   status: metadata-only
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-22'
   command: null
   unknowns:
-  - canonical build and publication commands require local confirmation
-  - several support-index pages still contain placeholder links to external canonical state sources
+  - some domain-specific support links still require current source confirmation
 maintenance:
   cadence: quarterly
   next_review: '2026-11-01'

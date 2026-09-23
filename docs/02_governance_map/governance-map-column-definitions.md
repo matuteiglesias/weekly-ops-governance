@@ -1,36 +1,37 @@
 # Governance Map — Column Definitions
 
-This file defines the canonical columns used by the governance map.
-
-The governance map is not a task list. It is the routing layer between the weekly board, route cards, state sources, checklists, and evidence.
+The Governance Map is a routing layer, not a state table.
 
 ## Columns
 
 | Column | Meaning |
 |---|---|
-| `ID` | Stable short identifier used on the weekly board and support index. |
-| `Domain` | Functional area governed by this route. |
-| `Route type` | Execution, governance, state update, homeostasis, externalization, or situational. |
-| `Natural cadence` | When this route normally appears. |
-| `Weekly board presence` | How the route appears on the paper board: checkbox, label, contract reference, or conditional route. |
-| `Contract` | The governance contract that gives quality criteria to the route. |
-| `Inputs` | Minimum sources needed to execute the route. |
-| `State touched` | State source updated or checked by the route. |
-| `Output / evidence` | Observable output, decision, log, update, or next pointer. |
-| `Tick valid when` | Minimal completion criterion for a checkbox or board mark. |
-| `Stop rule` | Boundary that prevents the route from expanding into bloat. |
-| `Linked card` | Route card that explains how to run this route. |
-| `Support index entry` | Digital support page with links to checklists, state, logs, and evidence. |
+| `ID` | Stable short route identifier when a stable name is actually useful. |
+| `Domain` | Human category; not necessarily a formal ontology. |
+| `Route type` | Execution, governance, state review, homeostasis, externalization, or situational. |
+| `Natural cadence` | **Heuristic/default** moment when the route is usually useful. Not a timer or state contract. |
+| `Weekly board presence` | How the route appears on paper/UI: checkbox, label, reference, conditional route. |
+| `Contract` | Optional governing rule when quality/boundary needs more than ordinary language. |
+| `Inputs` | Minimum real sources or published views needed to run the route. |
+| `State touched` | The governed source that may be reviewed/changed through its proper authority path. |
+| `Output / evidence` | Observable result, decision, evidence, or next pointer. |
+| `Tick valid when` | Minimal human completion criterion. |
+| `Stop rule` | Boundary preventing scope expansion. |
+| `Linked card` | Optional compact procedure for a repeated route. |
+| `Support index entry` | Navigation page resolving the route to live sources/views and evidence. |
 
-## Design rule
+## Route survival rule
 
-A route can appear on the weekly board only if it has:
+Keep a named route only when:
 
-1. a stable ID;
-2. a domain;
-3. an input;
-4. a state or evidence target;
-5. a valid tick criterion;
-6. a stop rule.
+1. it recurs;
+2. its source is real;
+3. its result is observable;
+4. it is not already handled cleanly by an Office/view projection;
+5. the name saves more cognition than it costs.
 
-If any of these are missing, the route belongs in backlog, not on the board.
+If not, ordinary language is enough.
+
+## Timing
+
+All cadence values are Weekly Governance heuristics. See [Cadence, horizons, and week-shaping heuristics](cadence-horizons.md).

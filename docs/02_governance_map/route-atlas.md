@@ -1,5 +1,7 @@
 # Route Atlas
 
+> **Derived navigation surface.** Route identity/meaning is owned by the Routes Master Table. This page must not introduce independent route semantics.
+
 A route-centric atlas for following a board route ID into the right card, contract, support page, state source, evidence source, printable, and stop rule.
 
 Do not treat this as an SOP. It is a routing surface.

@@ -3,10 +3,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Weekly Ops Governance',
-  tagline: 'Paper-first weekly operations system with digital support',
+  tagline: 'Human week shaping over governed state and compiled views',
   favicon: 'img/favicon.ico',
 
-  url: 'http://localhost',
+  url: 'https://weekly-ops-governance.vercel.app',
   baseUrl: '/',
 
   organizationName: 'matuteiglesias',
@@ -46,11 +46,10 @@ const config: Config = {
       title: 'Weekly Ops',
       items: [
         {to: '/docs/00_overview/operator-console', label: 'Operator Console', position: 'left'},
-        {to: '/docs/00_overview/support-flow-map', label: 'Support Flow', position: 'left'},
-        {to: '/docs/02_governance_map/route-atlas', label: 'Route Atlas', position: 'left'},
         {to: '/docs/01_weekly_board/weekly-board-layout-v0', label: 'Weekly Board', position: 'left'},
+        {to: '/docs/02_governance_map/cadence-horizons', label: 'Cadence', position: 'left'},
+        {to: '/docs/02_governance_map/', label: 'Governance Map', position: 'left'},
         {to: '/docs/04_digital_support_index/', label: 'Support Index', position: 'left'},
-        {to: '/docs/03_route_cards/', label: 'Route Cards', position: 'left'},
         {href: '/printables/weekly-board-v1.pdf', label: 'Printables', position: 'right'},
       ],
     },
@@ -61,18 +60,16 @@ const config: Config = {
           title: 'Operate',
           items: [
             {label: 'Operator Console', to: '/docs/00_overview/operator-console'},
-            {label: 'Support Flow Map', to: '/docs/00_overview/support-flow-map'},
             {label: 'Weekly Board', to: '/docs/01_weekly_board/weekly-board-layout-v0'},
+            {label: 'Cadence & Horizons', to: '/docs/02_governance_map/cadence-horizons'},
             {label: 'Monday Bridge PDF', href: '/printables/monday-bridge-v1.pdf'},
-            {label: 'Weekly Board PDF', href: '/printables/weekly-board-v1.pdf'},
           ],
         },
         {
           title: 'Navigate',
           items: [
-            {label: 'Route Atlas', to: '/docs/02_governance_map/route-atlas'},
-            {label: 'Agent Navigation Guide', to: '/docs/00_overview/agent-navigation-guide'},
             {label: 'Governance Map', to: '/docs/02_governance_map/'},
+            {label: 'Routes Master Table', to: '/docs/02_governance_map/tables/routes-master-table'},
             {label: 'Digital Support Index', to: '/docs/04_digital_support_index/'},
             {label: 'Route Cards', to: '/docs/03_route_cards/'},
           ],
@@ -84,4 +81,3 @@ const config: Config = {
 };
 
 export default config;
-
