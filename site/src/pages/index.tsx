@@ -2,7 +2,6 @@ import type {ReactNode} from 'react';
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import styles from './index.module.css';
 
 function Card(props: {title: string; to: string; children: React.ReactNode}) {
   return (
