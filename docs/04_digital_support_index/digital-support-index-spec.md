@@ -2,50 +2,55 @@
 
 ## Role
 
-The Digital Support Index is the digital counterpart to the weekly paper board.
+The Digital Support Index is the **navigation layer** between the paper/weekly surface and the real digital systems.
 
-The weekly board is spatial, writable, and low-density.
+It answers:
 
-The Digital Support Index is functional, searchable, and link-rich.
+- Where is the current source?
+- Is there a compiled view that is better than opening raw state?
+- Where is the route card/checklist?
+- Where should evidence land?
+- What is the smallest current next pointer?
 
-## It answers
+## It does not own
 
-- Where is the checklist?
-- Where is the state source?
-- Where is the route card?
-- Where is the governance contract?
-- Where should evidence go?
-- What is the next action for this route?
+- front/carry state;
+- relationship/contact data;
+- calendar/event truth;
+- Office compile semantics;
+- weekly scheduling state merely because it links to those systems.
 
-## It does not answer
+## Preferred source order
 
-- What hour should I do this?
-- What does my whole week look like?
-- Which project should win today?
-- What is the full operating philosophy?
+When resolving a route:
 
-Those belong to the weekly board, WEEK-GOV, Carry State, and Full Context.
+1. current published/compiled view if it already answers the human question;
+2. exact governed source table/system;
+3. route card or manual for procedure;
+4. evidence/artifact location.
+
+Do not create a new placeholder state page merely because a route lacks a convenient view.
 
 ## Canonical row shape
 
 | Field | Meaning |
 |---|---|
-| ID | Stable route ID. |
-| Domain | Functional area. |
-| Board presence | How the route appears on the weekly board. |
-| Route card | Short operational card. |
-| Governance contract | Contract defining quality and boundaries. |
-| State source | Source of truth touched by the route. |
-| Checklist / manual | Detailed procedure or helper. |
-| Evidence target | Where outputs are recorded. |
-| Cadence | Natural timing. |
-| Next action | What to do next to improve this route. |
+| ID | Stable route ID or navigation key. |
+| Domain | Human functional category. |
+| Board presence | How it appears on the weekly surface. |
+| Route card | Short procedure when useful. |
+| Governance contract | Boundary/quality contract when needed. |
+| State/view source | Exact governed source or compiled view. |
+| Checklist/manual | Detailed helper. |
+| Evidence target | Where observable result lands. |
+| Cadence | Weekly heuristic/default. |
+| Next action | Improvement needed in this navigation entry, not operational state. |
 
 ## Design principles
 
-1. Functional, not temporal.
-2. Links, not duplicated content.
-3. Short labels, stable IDs.
-4. Every route should resolve to state and evidence.
-5. Empty links are allowed as placeholders, but must be visible.
+1. Links/views, not duplicated content.
+2. Prefer current v2 sources.
+3. Prefer compiled views when raw state is too broad.
+4. Cadence is heuristic and lives in Weekly Governance.
+5. Empty/unknown links should be explicit rather than replaced with invented state.
 6. The index should reduce searching, not become another manual.
