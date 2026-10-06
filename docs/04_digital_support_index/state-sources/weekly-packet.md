@@ -1,8 +1,39 @@
-# Weekly Packet
+# Weekly Packet / Weekly View
 
-## Role
+## Current interpretation
 
-Compact state for the current or most recent week.
+The old `Weekly Packet` idea is now best understood as a **compiled weekly view**, not a source-of-truth database.
+
+A weekly view may combine:
+
+- current front/carry posture;
+- selected Office work/preparation;
+- visible commitments;
+- weekly route state;
+- handwritten/board annotations.
+
+## Authority
+
+Source facts remain in their governed systems.
+
+The weekly view may contain human judgments such as this week's emphasis, board grouping, or temporary visibility.
+
+It should be disposable and reproducible wherever possible.
+
+## Expected contents
+
+A useful weekly view may include:
+
+- week identity;
+- active or surfaced fronts;
+- visible outputs;
+- blockers;
+- selected routes;
+- this-week relationship/opportunity surfaces;
+- next pointers;
+- 14-day or seasonal frame.
+
+Not every week needs every field.
 
 ## Used by
 
@@ -11,19 +42,12 @@ Compact state for the current or most recent week.
 - CLOSE
 - NEXT
 - CARRY-W
-- FIN-W if finance affects the week
+- other routes when a week-level subset is useful
 
-## Expected contents
+## Persistence
 
-- Week dates
-- Active fronts
-- Visible outputs
-- Blockers
-- Routes activated
-- Notes / annotations
-- Monday bridge
-- Next pointers
+Paper marks or annotations may remain human-only.
 
-## Real link
+Machine-produced portions should eventually be generated from governed state/published views rather than maintained as a second spreadsheet.
 
-TODO: decide whether this is a markdown file, generated artifact, or paper scan.
+See [Cadence and horizons](../../02_governance_map/cadence-horizons.md).

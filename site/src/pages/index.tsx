@@ -1,35 +1,4 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-// import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
-
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-
-
-
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -43,60 +12,57 @@ function Card(props: {title: string; to: string; children: React.ReactNode}) {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): ReactNode {
   return (
     <Layout
       title="Weekly Ops Governance"
-      description="Paper-first weekly operations governance system"
+      description="Human week shaping over governed state and compiled views"
     >
       <main className="home-shell">
         <section className="hero-panel">
           <p className="eyebrow">Weekly Ops Governance</p>
-          <h1>Paper-first operation, digital support.</h1>
+          <h1>Shape the week without creating another source of truth.</h1>
           <p>
-            Use the weekly board as the human surface. Use route cards for bounded action.
-            Use the digital support index for links, state, and evidence.
+            Use the board for human visibility, routes for recurring moves,
+            and the digital index to reach real governed sources or published views.
           </p>
           <div className="hero-actions">
             <Link className="button button--primary" to="/docs/00_overview/operator-console">
               Open Operator Console
             </Link>
-            <Link className="button button--secondary" to="/docs/00_overview/support-flow-map">
-              View Support Flow
-            </Link>
-            <Link className="button button--secondary" to="/docs/02_governance_map/route-atlas">
-              Open Route Atlas
-            </Link>
             <Link className="button button--primary" to="/docs/01_weekly_board/weekly-board-layout-v0">
-              Start with Weekly Board
+              Open Weekly Board
+            </Link>
+            <Link className="button button--secondary" to="/docs/02_governance_map/cadence-horizons">
+              Cadence & Horizons
             </Link>
             <Link className="button button--secondary" href="/printables/weekly-board-v1.pdf">
-              Open Weekly Board PDF
+              Weekly Board PDF
             </Link>
           </div>
         </section>
 
         <section className="home-grid">
-          <Card title="Start the week" to="/docs/00_overview/operator-console">
-            Open the need-first console for WEEK-GOV, Weekly Board, Digital Support Index, and Weekly Packet.
+          <Card title="Shape the week" to="/docs/02_governance_map/cadence-horizons">
+            Use horizons, Mon/Wed/Fri carry, 14-day framing, dayparts, and attention counts as heuristics.
           </Card>
           <Card title="Start today" to="/docs/03_route_cards/core/boot">
-            Use BOOT with the Weekly Board and NEXT pointer to choose the first concrete action.
+            Use BOOT to choose one concrete move from current Office or Weekly views.
           </Card>
-          <Card title="Find a route" to="/docs/04_digital_support_index/navigation/route-atlas">
-            Look up route cards, governance contracts, support pages, state, evidence, printables, and stop rules.
+          <Card title="Review carry" to="/docs/04_digital_support_index/state-sources/carry-state">
+            Navigate to governed carry_state_v2 instead of maintaining a Weekly copy.
           </Card>
-          <Card title="Use printables" to="/docs/06_printables/">
-            Find the Weekly Board, Monday Bridge, printables manifest, and synced PDF/PNG assets.
+          <Card title="Find a route" to="/docs/02_governance_map/tables/routes-master-table">
+            Use the canonical Weekly route registry, then follow the Digital Support Index to sources and evidence.
           </Card>
-          <Card title="Update state" to="/docs/04_digital_support_index/navigation/ops-navigator">
-            Jump from a route to source-of-truth state such as Carry State, Weekly Packet, Finance Calendar, or Ledger.
+          <Card title="Use a front portfolio view" to="/docs/04_digital_support_index/state-sources/project-frontier">
+            The legacy Project Frontier name now resolves to a compiled view over governed fronts.
           </Card>
-          <Card title="Record evidence" to="/docs/04_digital_support_index/evidence-sources/output-log">
-            Leave proof in Output Log, Messages Sent, Published Posts, Deployments, or Reports.
+          <Card title="Use a Weekly View" to="/docs/04_digital_support_index/state-sources/weekly-packet">
+            Weekly Packet is now a compiled human view, not a state database.
           </Card>
-          <Card title="Guide for agents" to="/docs/04_digital_support_index/navigation/agent-navigation-guide">
-            Follow safe-edit rules for routes, printables, Docusaurus links, board bloat, and Monday Bridge separation.
+          <Card title="Navigate digital support" to="/docs/04_digital_support_index/">
+            Reach the exact source, view, manual, or evidence target with minimal search.
           </Card>
         </section>
       </main>
