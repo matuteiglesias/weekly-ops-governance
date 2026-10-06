@@ -26,4 +26,3 @@ publication or external mutation.
 - Abstention is healthy when evidence is trivial, weak, repetitive, or unsafe.
 - Deterministic validation, risk gates, evidence references, deduplication, and
   inventory limits outrank model preference.
-
