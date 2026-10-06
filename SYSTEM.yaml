@@ -12,13 +12,16 @@ authority:
   status: declared
   owns:
   - weekly governance documentation and route vocabulary
+  - slow editorial policy and durable public-projection constitutions
   - human-facing weekly board, route cards, support indexes, and printable interaction surfaces
   - cadence, horizon, daypart, 14-day, seasonal, and attention-count heuristics
   - documentation for week review, rollover, and restart procedures
+  - editorial constitutions that constrain downstream candidate staging and publication policy
   does_not_own:
   - canonical operational front registry or carry state
   - Office compile semantics or generated Office state
   - operator runtime authorization
+  - editorial candidate generation, staging runtime, or publication execution
   - repository runtime state or GitHub estate authority
   - relationship/contact/event source truth
   - Event & Institutional Frontier state
@@ -28,10 +31,12 @@ interfaces:
   - governed source references
   - Office v2 artifacts and published views
   - human annotations
+  - evidence-backed editorial-policy proposals
   produces:
   - weekly routing/navigation
   - board/printable surfaces
   - cadence and horizon heuristics
+  - pinned editorial constitutions / slow public-projection policy
 upstream: []
 downstream: []
 canonical_commands: []
