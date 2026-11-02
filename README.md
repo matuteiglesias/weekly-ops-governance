@@ -35,8 +35,9 @@ Control Tower / governed sources
 1. [Operator Console](docs/00_overview/operator-console.md)
 2. [Weekly Board](docs/01_weekly_board/weekly-board-layout-v0.md)
 3. [Cadence, horizons, and week-shaping heuristics](docs/02_governance_map/cadence-horizons.md)
-4. [Governance Map](docs/02_governance_map/index.md)
-5. [Digital Support Index](docs/04_digital_support_index/index.md)
+4. [30-slot monthly anchors (proposal)](docs/02_governance_map/monthly-anchors.md)
+5. [Governance Map](docs/02_governance_map/index.md)
+6. [Digital Support Index](docs/04_digital_support_index/index.md)
 
 ## Route authority
 

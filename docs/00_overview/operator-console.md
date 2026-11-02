@@ -9,6 +9,13 @@ Start here when you know what you need as a human operator but not which surface
 - [WEEK-GOV](../03_route_cards/core/week-gov.md)
 - [Weekly View](../04_digital_support_index/state-sources/weekly-packet.md)
 
+## I need to place monthly recurring work
+
+- [30-slot monthly anchors (proposal)](../02_governance_map/monthly-anchors.md)
+- [Cadence and horizons](../02_governance_map/cadence-horizons.md)
+
+A monthly anchor is a conditional human review window, not a new route or task scheduler. The owning system still decides what is due.
+
 ## I need to start today
 
 - [BOOT](../03_route_cards/core/boot.md)

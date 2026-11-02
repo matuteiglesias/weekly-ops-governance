@@ -121,6 +121,7 @@ Those live in their source systems or supporting views.
 ## Related
 
 - [Cadence and horizons](../02_governance_map/cadence-horizons.md)
+- [Monthly anchors (proposed; only surface what is actually due)](../02_governance_map/monthly-anchors.md)
 - [Governance Map](../02_governance_map/index.md)
 - [Digital Support Index](../04_digital_support_index/index.md)
 - [Route Cards](../03_route_cards/index.md)

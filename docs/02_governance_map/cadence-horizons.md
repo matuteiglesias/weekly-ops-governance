@@ -145,5 +145,6 @@ Weekly Governance may choose to surface one of those groups this week without re
 ## Related
 
 - [Weekly Board](../01_weekly_board/weekly-board-layout-v0.md)
+- [30-slot monthly anchors (proposal)](monthly-anchors.md)
 - [Governance Map](index.md)
 - [Routes Master Table](tables/routes-master-table.md)
