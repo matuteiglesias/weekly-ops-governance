@@ -25,6 +25,7 @@ Weekly annotations may remain human-local. Source facts should resolve back to g
 - [Operator Console](operator-console.md)
 - [Weekly Board](../01_weekly_board/weekly-board-layout-v0.md)
 - [Cadence, horizons, and week-shaping heuristics](../02_governance_map/cadence-horizons.md)
+- [30-slot monthly anchors (proposal)](../02_governance_map/monthly-anchors.md)
 - [Governance Map](../02_governance_map/index.md)
 - [Digital Support Index](../04_digital_support_index/index.md)
 - [Printables](../06_printables/index.md)
